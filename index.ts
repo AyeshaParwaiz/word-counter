@@ -1,4 +1,4 @@
-#! usr/bin/env node
+#! /usr/bin/env node
 import inquirer from "inquirer";
 
 const answer: {
@@ -11,9 +11,9 @@ const answer: {
     }
     ])
 
-    const words = answer.Sentence.trim().split(" ")
+const words = answer.Sentence.trim().split(" ")
 
-    console.log(words)
+console.log(words)
 
-    console.log(`Your sentence word count is ${words.length}`);
-    
+console.log(`Your sentence word count is ${words.length}`);
+
